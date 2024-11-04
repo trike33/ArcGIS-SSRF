@@ -1,7 +1,7 @@
 Note: The paths may slightl vary from target to target so adjust them as needed. Each endpoint can be leveraged for internal network scan/internal port scan by using `http://127.0.0.1:25` or `http://localhost:25` or `http://<private_ip>`.
 
 ## 1.
-Endpoint: `Utilities/Geometry/GeometryServer/areasAndLengths`
+Endpoint: `/Utilities/Geometry/GeometryServer/areasAndLengths`
 
 Parameter: `polygons`
 
