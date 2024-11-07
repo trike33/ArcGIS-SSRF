@@ -26,3 +26,23 @@ Parameter: `polylines`
 Sample payload: `sr=4269&polylines={"url":"http://example.com"}&lengthUnit=9036&calculationType=preserveShape&f=json`
 
 Documentation: https://developers.arcgis.com/rest/services-reference/enterprise/lengths/
+
+## 4.
+
+Endpoint: `Utilities/Geometry/GeometryServer/simplify`
+
+Parameter: `geometries`
+
+Sample payload: `sr=4326&geometries={"url":"http://example.com"}`
+
+Documentation: https://developers.arcgis.com/rest/services-reference/enterprise/simplify/
+
+## 5. 
+
+Endpoint: `Utilities/Geometry/GeometryServer/relation`
+
+Parameter: `geometries1` and `geometries2`
+
+Sample Payload: `sr=4326&geometries1={"url":"http://example.com"}&geometries2={"url":"http://example.com"}&relation=esriGeometryRelationWithin`
+
+Documentation: https://developers.arcgis.com/rest/services-reference/enterprise/relation/
