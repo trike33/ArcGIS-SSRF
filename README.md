@@ -3,6 +3,8 @@ This repository contains Proofs of Concept (PoCs) for known Server-Side Request 
 
 It is important to note that this endpoints should only be considered vulnerable if they are exposed to unauthenticated users, as they contain dangerous functionality meant for authenticated users. 
 
+I discovered this SSRF while working as an SRT in Synack.
+
 # METHODOLOGY USED
 First discover which ArcGIS services are exposed by the target, then review the documentation of each of them(you may be able to find more than an SSRF).
 
