@@ -1,4 +1,4 @@
-Note: The paths may slightl vary from target to target so adjust them as needed. Each endpoint can be leveraged for internal network scan/internal port scan by using `http://127.0.0.1:25` or `http://localhost:25` or `http://<private_ip>`.
+Note: The paths may slightly vary from target to target so adjust them as needed. Each endpoint can be leveraged for internal network scan/internal port scan by using `http://127.0.0.1:25` or `http://localhost:25` or `http://<private_ip>`.
 
 Quick tip for getting a partial SSRF: First attempt a port that is very likely to be closed such as 55555/tcp and then another one that is likely to be open 111/tcp(for linux) 445/tcp(for windows). After this observe differences in their responses to find a pattern.
 
