@@ -1,5 +1,5 @@
 # DESCRIPTION
-This repository contains Proofs of Concept (PoCs) for known Server-Side Request Forgery (SSRF) vulnerabilities in ArcGIS, a powerful geographic information system (GIS) software used for mapping and spatial analysis. Each PoC demonstrates specific exploitation techniques to enhance awareness of security risks associated with these vulnerabilities. The content is intended for educational and research purposes only.
+This repository contains Proofs of Concept (PoCs) for known partial Server-Side Request Forgery (SSRF) vulnerabilities in ArcGIS, a powerful geographic information system (GIS) software used for mapping and spatial analysis. Each PoC demonstrates specific exploitation techniques to enhance awareness of security risks associated with these vulnerabilities. The content is intended for educational and research purposes only.
 
 It is important to note that this endpoints should only be considered vulnerable if they are exposed to unauthenticated users, as they contain dangerous functionality meant for authenticated users. 
 
